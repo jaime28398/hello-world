@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <header>
+    <meta charset="utf-8">
+    <title>Invie</title>
+    <img src="http://tefasmile.github.io/invie/images/invie.png" width="186" height="60">
+           <nav class="menu" id="menu">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Guitarras</a>
+                </li>
+                <li>
+                    <a href="#">Precios</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <h1>Guitarras <u>Invie</u>sibles</h1>
+            <h2>Se la estrella de rock que siempre quisiste ser</h2>
+    <br><button>Conoce mas</button></br>    
+       <section>
+               <h3>Nuestras Guitarras</h3>
+               <h4>Invie Acustica</h4>
+                   <img src="http://juandc.github.io/Platzi/desarrollo-web/Invie/images/invie-acustica.png" align="margin-right" width="100" height="100">
+               <ol>Estilo vintage</ol>
+               <ol>Madera Pura</ol>
+               <ol>Incluye estuche invisible de aluminio</ol>
+               <h5>Invie Classic</h5>
+                   <img src="http://juandc.github.io/Platzi/desarrollo-web/Invie/images/invie-classic.png" align="margin-right" width="100" height="100">
+               <ol>Estilo vintage</ol>
+               <ol>Liviana</ol>
+               <ol>Inicia tu camino como Rockstar</ol>
+       </section>
+    <style>
+        button{
+            background: red;
+            color: white;
+            border-radius: 24px;
+            border-color: red;
+            text-align: center;
+            }
+        body{
+            text-align: left;
+            margin-right: 200px;
+            margin-left: 200px;
+            border: 20px;
+            border-color: blue;
+            background: blue;
+        }
+        ul{
+            color: blue;
+            font-family: arial;
+        }
+        ol{
+            font-family: arial;
+        }
+
+        li{
+            display: inline;
+        }
+        h2{
+            color: black;
+            size: 5px;
+        }
+        section{
+            padding: 20px;
+            border-color: black;
+            border: blue 2px solid;
+            background: white;
+        }
+        h4{
+            color: blue;
+            border-color: blue;
+            text-align: left; 
+            border: blue 2px solid;
+            border-radius: 24px;
+            padding: 5px;
+        }
+        header{
+            color: black;
+        }
+        p{
+            border: blue 1px solid;
+            color: darkblue;
+            border-radius: 10px;
+        }
+        h3{
+            color: darkblue;
+        }
+        h5{
+            color: blue;
+            text-align: left; 
+            border: blue 2px solid;
+            border-radius: 24px;
+            padding: 5px;
+        }
+        h1{
+            color: white;
+        }
+        h2{
+            color: white;
+        }
+    </style>
+    </body>
+    <footer class="footer">
+      <div class="contenedor">
+          <a href="tel:+573024456678"><strong>Telefono</strong> <span>3024456678</span></a>
+          <a href="mailto:contacto@invie.com"><strong>E-mail</strong> <span>contacto@invie.com</span></a>
+        </div>
+        <form class="formulario">
+          <div class="col1">
+            <label for="nombre">Nombre</label>
+            <input type="text" required id="nombre" name="nombre"/>
+            <label for="email">E-mail</label>
+            <input type="email" required id="email" name="email"/>
+            <div class="sexo">
+              <label for="mujer">
+                <input type="radio" id="mujer" checked name="sexo" value="mujer"> mujer
+              </label>
+              <label for="hombre">
+                <input type="radio" id="hombre" name="sexo" value="hombre"> hombre
+              </label>
+            </div>
+            <div class="intereses">
+              <label for="cotizacion">
+                <input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"> Cotización
+              </label>
+              <label for="reclamos">
+                <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+              </label>
+              <label for="comentarios">
+                <input type="checkbox" id="comentarios" name="intereses" value="comantarios"> Comentarios
+              </label>
+              <label for="otros">
+                <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+              </label>
+            </div>
+          </div>
+          <div class="col2">
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comantarios" id="comentarios" cols="30" rows="7"></textarea>
+            <input type="submit" value="Enviar" class="button"/>
+          </div>
+        </form>
+      </div>
+    </footer>
+</html>
